@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guardapolvos Gian Site</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/styles2.css">
+</head>
+<body>
+
+  <div class="contenido-principal">
+  
+    <div class="navbar">
+      <h1 class="titulo-principal">Guardapolvos Gian</h1>
+
+      <nav class="navegacion">
+        <a class="navegacion_enlace" href="index.html">Inicio</a>
+        <a class="navegacion_enlace" href="tienda.html">Tienda</a>
+        <a class="navegacion_enlace" href="contacto.html">Contacto</a>
+      
+      </nav>
+    </div>
+
+    <main class="contenedor sombras">	
+	<h2 class="centrar-texto">Mis servicios</h2>
+
+	<section id="contacto">		
+		<h2>contacto</h2>
+
+  <form action="emailto:lucdani@hotmail.com.ar" class="formulario">
+    <fieldset>
+      <legend>Contactame llenando los campos</legend>
+
+      <div class="campos">
+
+      <div class="campos__entrada">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre" title="ingrece solo caracteres" class="campos__input">        
+      </div>
+
+      <div class="campos__entrada">
+        <label for="Telefono">Telefono:</label>
+        <input type="tel" name="Telefono" id="Telefono" placeholder="ingrese telefono" class="campos__input">       
+      </div>
+
+      <div class="campos__entrada">
+        <label for="Correo">Correo:</label>
+        <input type="email" name="Correo" id="Correo" placeholder="ingrese correo" class="campos__input">       
+      </div>
+
+      <div class="campos__entrada">
+        <label for="pais">ingrese de que pais nos contacta:</label>
+          <select id="pais" class="campos__input">
+            <option selected disabled>indique su pais</option>
+            <option>argentina</option>
+            <option>brazil</option>
+            <option>paraguay</option>
+            <option>uruguay</option>
+          </select>       
+      </div>
+
+      <div class="campos__entrada">
+        <label for="comentario">dejanos tu mensaje</label>
+          <textarea placeholder="contactate con nosotros" id="comentario" class="campos__input campos__input--textarea"></textarea>       
+      </div>
+
+      <div class="campos__entrada">
+        <input type="checkbox" name="notificaciones" value="si" id="notificaciones" checked>
+        <label for="notificaciones">¿desea resibir notificaciones?</label>  
+
+      </div>
+      
+
+        </div>
+        <div class="campos__entrada__btn">
+          <input type="submit" name="enviar" value="enviar" class="btn">
+          <input type="reset" name="cancelar" value="cancelar" class="btn">
+        </div>   
+
+      </fieldset>
+    </form>
+	</section>
+</main>
+
+    <footer class="footer">
+    <p class="footer-texto">Seguinos en nuestras redes ♥</p>
+
+    <a href="https://www.instagram.com/guardapolvos_gian/">
+      <img class="icono" src="img/ig.svg" alt="instagram">
+    </a>
+    <a href="#">
+      <img class="icono" src="img/fbook.svg" alt="facebook">
+    </a>
+    <a href="#">
+      <img class="icono" src="img/wapp.svg" alt="whatsapp">
+    </a>
+
+    <p class="footer-texto">2025 [Guardapolvos Gian]. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
